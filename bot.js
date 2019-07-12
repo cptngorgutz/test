@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const auth = require('./auth.json');
+require('./app/index.js');
 require('dotenv/config');
 const http = require('http');
 const port = process.env.PORT || 3000;

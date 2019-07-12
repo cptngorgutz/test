@@ -43,5 +43,5 @@ if (msg.content === '!delete all') {
 );
 bot.on('error', err => {
 	console.log(err);
-}};
+)};
 client.login(auth.token);
